@@ -14,6 +14,7 @@
 		C3638C061A428AFD008B937F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3638C051A428AFD008B937F /* Images.xcassets */; };
 		C3638C091A428AFD008B937F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3638C071A428AFD008B937F /* LaunchScreen.xib */; };
 		C3638C151A428AFD008B937F /* WeatherReportTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3638C141A428AFD008B937F /* WeatherReportTests.m */; };
+		C3EFEBDF1A42C806009FBF3B /* RequestWeatherHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = C3EFEBDE1A42C806009FBF3B /* RequestWeatherHandle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		C3638C0E1A428AFD008B937F /* WeatherReportTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherReportTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3638C131A428AFD008B937F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C3638C141A428AFD008B937F /* WeatherReportTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeatherReportTests.m; sourceTree = "<group>"; };
+		C3EFEBDD1A42C806009FBF3B /* RequestWeatherHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestWeatherHandle.h; sourceTree = "<group>"; };
+		C3EFEBDE1A42C806009FBF3B /* RequestWeatherHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestWeatherHandle.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 		C3638BF71A428AFD008B937F /* WeatherReport */ = {
 			isa = PBXGroup;
 			children = (
+				C3EFEBDD1A42C806009FBF3B /* RequestWeatherHandle.h */,
+				C3EFEBDE1A42C806009FBF3B /* RequestWeatherHandle.m */,
 				C3638BFC1A428AFD008B937F /* AppDelegate.h */,
 				C3638BFD1A428AFD008B937F /* AppDelegate.m */,
 				C3638BFF1A428AFD008B937F /* ViewController.h */,
@@ -221,6 +226,7 @@
 			files = (
 				C3638C011A428AFD008B937F /* ViewController.m in Sources */,
 				C3638BFE1A428AFD008B937F /* AppDelegate.m in Sources */,
+				C3EFEBDF1A42C806009FBF3B /* RequestWeatherHandle.m in Sources */,
 				C3638BFB1A428AFD008B937F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +418,7 @@
 				C3638C1A1A428AFD008B937F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C3638C1B1A428AFD008B937F /* Build configuration list for PBXNativeTarget "WeatherReportTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +427,7 @@
 				C3638C1D1A428AFD008B937F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
